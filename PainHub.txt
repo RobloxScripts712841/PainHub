@@ -1,0 +1,27 @@
+-- for an example: shitchat:SendAsync("sup")
+--				   wait(5)
+-- 				   shitchat:SendAsync("sup2")
+-- not putting wait command will send both texts at once
+ 
+local spamspeed = speed
+ 
+while true do
+speed =  task.wait(5) -- change your time what you want (5 = 5 seconds)
+    local shitchat = game.TextChatService.TextChannels.RBXGeneral
+ 
+ 
+ 
+        shitchat:SendAsync("I weigh a lot because I eat a lot, i also dont like NBA players because they eat chicken and watermelon but also because they are black and black is bad") -- change your desired text from brackets
+        wait(0.1)
+        shitchat:SendAsync("slag")
+        wait(0.1)
+        shitchat:SendAsync("nigger")
+        wait(0.1)
+        shitchat:SendAsync("Pussy")
+        wait(0.1)
+        shitchat:SendAsync("I support the KKK!")
+        wait(0.1)
+        shitchat:SendAsync("Fuck the blacks")
+ 
+ 
+ end       
